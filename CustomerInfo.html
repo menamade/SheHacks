@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>TerraBit Signup!</title>
+    <script src="scripts.js"></script>
+</head>
+<body onload="init();">
+
+    <div id="wrap">
+        <img id="terra-banner" src="images/terra-banner.png" alt="TerraBit Logo Banner" />
+
+
+        <h1>Tell us about you!</h1>
+
+        <form onsubmit="validateName();">
+            <div class="formLabel">First Name:</div>
+            <input class="box" type="text" align="center" name="firstname" id="firstname" value="" />
+            <div class="formLabel">Last Name:</div>
+            <input class="box" type="text" align="center" name="lastname" id="lastname" value="" />
+            <div class="formLabel">Age:</div>
+            <input class="box" type="text" align="center" name="age" id="age" value="" />
+            <div class="formLabel">Country:</div>
+            <select name="selectCountry" id="selectCountry"></select>
+            <div class="formLabel">Email Address:</div>
+            <input class="box" type="text" align="center" name="email" id="email" value="" />
+        </form>
+
+        <div id="buttondiv">
+            <button class="buttonclass"><a href="LifestyleInfo.html">Next</a></button>
+        </div>
+
+        <footer>
+            <p id="footerText">&copy; Copyright TerraBit 2019. To contact, click <a href="mailto:webmaster@email.com">here.</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

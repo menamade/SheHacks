@@ -1,0 +1,85 @@
+﻿body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+}
+
+#wrap {
+    width: 80%;
+    padding-bottom: 1%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #ebfaeb;
+    overflow: auto;
+}
+
+#terra-banner {
+    width: 100%;
+}
+
+#smartDiv {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+input {
+    border: none;
+}
+select {
+    border: none;
+    width: 30%;
+    height: 33px;
+    font-size: 100%;
+}
+
+.box {
+    height: 33px;
+    font-size: 100%;
+    width: 30%;
+}
+footer a {
+    color: #145214;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 250%;
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+
+footer {
+    border-top: 4px solid white;
+    clear: both;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+#buttondiv {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#score {
+    text-align: center;
+    font-size: 400%;
+    color: #145214;
+}
+
+.buttonclass {
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 12px 28px;
+}
